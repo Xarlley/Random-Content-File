@@ -10,7 +10,7 @@ def write_to_file(filename, content):
 
 def main():
     file_size_mb = 1
-    file_size_bytes = file_size_mb * 1024 * 1024 * 2  # 1MB in bytes
+    file_size_bytes = file_size_mb * 1024 * 1024 * 2  # 2 * 1MB in bytes
     content = generate_random_numbers(file_size_bytes)
     filename = 'random_numbers.txt'
     write_to_file(filename, content)
